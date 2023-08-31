@@ -4485,3 +4485,361 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.31-16.21.06:287][ 90]AssetCheck: New page: Asset Save: multiple assets
 [2023.08.31-16.21.06:287][ 90]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Rubes_Kitchen.Rubes_Kitchen
 [2023.08.31-16.21.06:287][ 90]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/L1_Incline_Plane.L1_Incline_Plane
+[2023.08.31-16.22.26:349][393]LogActorLevelEditorSelection: Warning: SelectActor: The requested operation could not be completed because the level is locked. (Floor)
+[2023.08.31-16.22.29:561][500]PIE: Warning: Constraint in '/Engine/Transient.World_0:PersistentLevel.GS_Lever_C_0.PC_Folcrum' attempting to create a joint between objects that are both static.  No joint created.
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: ================================================
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Total job queries 5908, among them cache hits 12 (0.20%)
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Tracking 5890 distinct input hashes that result in 4354 distinct outputs (73.92%)
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: RAM used: 35.96 MB (0.04 GB) of 1638.40 MB (1.60 GB) budget. Usage: 2.19%
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Shaders Compiled: 5890
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Jobs assigned 5896, completed 5890 (99.90%)
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Average time worker was idle: 10.70 s
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Time job spent in pending queue: average 111.61 s, longest 249.68 s
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Job execution time: average 5.16 s, max 34.97 s
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Job life time (pending + execution): average 116.88 s, max 262.17
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 293.04 s
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Jobs were issued in 675 batches (only local compilation was used), average 8.73 jobs/batch
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Average processing rate: 20.10 jobs/sec
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Total thread time: 3204.50 s
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Total thread preprocess time: 205.53 s
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Percentage time preprocessing: 6.41%
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Effective parallelization: 10.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 15.58 sec, max 29.54 sec, min 2.18 sec)
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.46 sec, max 6.50 sec, min 3.66 sec)
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled   14 times, average 5.45 sec, max 10.52 sec, min 0.82 sec)
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 3.96 sec, max 6.40 sec, min 1.64 sec)
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    4 times, average 3.71 sec, max 13.43 sec, min 0.42 sec)
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display:                                             FDeferredLightPS - 7.99% of total time (compiled  150 times, average 1.71 sec, max 2.63 sec, min 1.16 sec)
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.88% of total time (compiled   96 times, average 1.63 sec, max 3.04 sec, min 0.32 sec)
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.35% of total time (compiled   47 times, average 2.96 sec, max 12.42 sec, min 0.39 sec)
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 4.30% of total time (compiled  128 times, average 1.08 sec, max 1.87 sec, min 0.42 sec)
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display:                                                   FTonemapCS - 3.62% of total time (compiled  420 times, average 0.28 sec, max 0.83 sec, min 0.14 sec)
+[2023.08.31-16.22.30:772][541]LogShaderCompilers: Display: ================================================
+[2023.08.31-16.25.03:722][ 61]LogSlate: Took 0.005828 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NotoColorEmoji.ttf' (7610K)
+[2023.08.31-16.25.04:272][ 77]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GeometryScripts/GS_InclinedPlane.GS_InclinedPlane_C
+[2023.08.31-16.25.04:272][ 77]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GeometryScripts/GS_InclinedPlane.GS_InclinedPlane_C
+[2023.08.31-16.25.04:274][ 77]LogActorFactory: Actor Factory spawned Blueprint /Game/GeometryScripts/GS_InclinedPlane.GS_InclinedPlane as actor: GS_InclinedPlane_C /Game/Maps/L1_Incline_Plane.L1_Incline_Plane:PersistentLevel.GS_InclinedPlane_C_0
+[2023.08.31-16.25.04:274][ 77]LogActorFactory: Actor Factory spawned Blueprint /Game/GeometryScripts/GS_InclinedPlane.GS_InclinedPlane as actor: GS_InclinedPlane_C /Game/Maps/L1_Incline_Plane.L1_Incline_Plane:PersistentLevel.GS_InclinedPlane_C_0
+[2023.08.31-16.25.04:282][ 78]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.08.31-16.25.05:097][114]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GeometryScripts/GS_InclinedPlane.GS_InclinedPlane_C
+[2023.08.31-16.25.05:097][114]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GeometryScripts/GS_InclinedPlane.GS_InclinedPlane_C
+[2023.08.31-16.25.05:100][114]LogActorFactory: Actor Factory spawned Blueprint /Game/GeometryScripts/GS_InclinedPlane.GS_InclinedPlane as actor: GS_InclinedPlane_C /Game/Maps/L1_Incline_Plane.L1_Incline_Plane:PersistentLevel.GS_InclinedPlane_C_1
+[2023.08.31-16.25.05:100][114]LogActorFactory: Actor Factory spawned Blueprint /Game/GeometryScripts/GS_InclinedPlane.GS_InclinedPlane as actor: GS_InclinedPlane_C /Game/Maps/L1_Incline_Plane.L1_Incline_Plane:PersistentLevel.GS_InclinedPlane_C_1
+[2023.08.31-16.25.05:907][137]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.08.31-16.25.54:198][846]LogHttp: Warning: 00000510A0794100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DEF8531-45AE-A4CA-3C59-1090D33FB0EA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=63477a2648b56e6a890810819bbd1a0f%7C45280a0f129a485cac1e7a7a96945418%7C883dfb2b-1ea3-4fcc-800c-f4689c1d8980&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.08.31-16.25.54:198][846]LogHttp: Warning: 00000510A0794100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2023.08.31-16.25.54:198][846]LogHttp: Warning: 00000510A0794100: libcurl info message cache 0 (Found bundle for host: 0x50ff7880c90 [serially])
+[2023.08.31-16.25.54:198][846]LogHttp: Warning: 00000510A0794100: libcurl info message cache 1 (Re-using existing connection #4 with host datarouter.ol.epicgames.com)
+[2023.08.31-16.25.54:198][846]LogHttp: Warning: 00000510A0794100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.210.44.161) port 443 (#4))
+[2023.08.31-16.25.54:198][846]LogHttp: Warning: 00000510A0794100: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.08.31-16.25.54:198][846]LogHttp: Warning: 00000510A0794100: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2023.08.31-16.25.54:198][846]LogHttp: Warning: 00000510A0794100: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2023.08.31-16.25.54:198][846]LogHttp: Warning: 00000510A0794100: libcurl info message cache 6 (Closing connection 4)
+[2023.08.31-16.25.54:198][846]LogHttp: Warning: 00000510A0794100: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.08.31-16.25.54:198][846]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DEF8531-45AE-A4CA-3C59-1090D33FB0EA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=63477a2648b56e6a890810819bbd1a0f%7C45280a0f129a485cac1e7a7a96945418%7C883dfb2b-1ea3-4fcc-800c-f4689c1d8980&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: ================================================
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Total job queries 5914, among them cache hits 12 (0.20%)
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Tracking 5897 distinct input hashes that result in 4356 distinct outputs (73.87%)
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: RAM used: 36.00 MB (0.04 GB) of 1638.40 MB (1.60 GB) budget. Usage: 2.20%
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Shaders Compiled: 5897
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Jobs assigned 5902, completed 5897 (99.92%)
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Average time worker was idle: 13.55 s
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Time job spent in pending queue: average 111.49 s, longest 249.68 s
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Job execution time: average 5.15 s, max 34.97 s
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Job life time (pending + execution): average 116.74 s, max 262.17
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 294.02 s
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Jobs were issued in 681 batches (only local compilation was used), average 8.67 jobs/batch
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Average processing rate: 20.06 jobs/sec
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Total thread time: 3210.97 s
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Total thread preprocess time: 205.98 s
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Percentage time preprocessing: 6.41%
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Effective parallelization: 10.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 15.58 sec, max 29.54 sec, min 2.18 sec)
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.46 sec, max 6.50 sec, min 3.66 sec)
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled   14 times, average 5.45 sec, max 10.52 sec, min 0.82 sec)
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 3.96 sec, max 6.40 sec, min 1.64 sec)
+[2023.08.31-16.27.59:975][151]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    4 times, average 3.71 sec, max 13.43 sec, min 0.42 sec)
+[2023.08.31-16.27.59:976][151]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.08.31-16.27.59:976][151]LogShaderCompilers: Display:                                             FDeferredLightPS - 7.97% of total time (compiled  150 times, average 1.71 sec, max 2.63 sec, min 1.16 sec)
+[2023.08.31-16.27.59:976][151]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.87% of total time (compiled   96 times, average 1.63 sec, max 3.04 sec, min 0.32 sec)
+[2023.08.31-16.27.59:976][151]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.40% of total time (compiled   49 times, average 2.88 sec, max 12.42 sec, min 0.39 sec)
+[2023.08.31-16.27.59:976][151]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 4.29% of total time (compiled  128 times, average 1.08 sec, max 1.87 sec, min 0.42 sec)
+[2023.08.31-16.27.59:976][151]LogShaderCompilers: Display:                                                   FTonemapCS - 3.62% of total time (compiled  420 times, average 0.28 sec, max 0.83 sec, min 0.14 sec)
+[2023.08.31-16.27.59:976][151]LogShaderCompilers: Display: ================================================
+[2023.08.31-16.28.54:184][800]LogHttp: Warning: 00000510749B1900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DEF8531-45AE-A4CA-3C59-1090D33FB0EA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=63477a2648b56e6a890810819bbd1a0f%7C45280a0f129a485cac1e7a7a96945418%7C883dfb2b-1ea3-4fcc-800c-f4689c1d8980&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.08.31-16.28.54:184][800]LogHttp: Warning: 00000510749B1900: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2023.08.31-16.28.54:184][800]LogHttp: Warning: 00000510749B1900: libcurl info message cache 0 (Found bundle for host: 0x50ff7880f90 [serially])
+[2023.08.31-16.28.54:184][800]LogHttp: Warning: 00000510749B1900: libcurl info message cache 1 (Re-using existing connection #5 with host datarouter.ol.epicgames.com)
+[2023.08.31-16.28.54:184][800]LogHttp: Warning: 00000510749B1900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.20.159.147) port 443 (#5))
+[2023.08.31-16.28.54:184][800]LogHttp: Warning: 00000510749B1900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.08.31-16.28.54:184][800]LogHttp: Warning: 00000510749B1900: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2023.08.31-16.28.54:184][800]LogHttp: Warning: 00000510749B1900: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2023.08.31-16.28.54:184][800]LogHttp: Warning: 00000510749B1900: libcurl info message cache 6 (Closing connection 5)
+[2023.08.31-16.28.54:184][800]LogHttp: Warning: 00000510749B1900: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.08.31-16.28.54:184][800]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DEF8531-45AE-A4CA-3C59-1090D33FB0EA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=63477a2648b56e6a890810819bbd1a0f%7C45280a0f129a485cac1e7a7a96945418%7C883dfb2b-1ea3-4fcc-800c-f4689c1d8980&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.08.31-16.30.03:713][402]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.31-16.30.03:725][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.31-16.30.03:725][402]PIE: New page: PIE session: Rubes_Kitchen (1 Sep 2023, 10:30:03 am)
+[2023.08.31-16.30.03:725][402]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Rubes_Kitchen
+[2023.08.31-16.30.03:727][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001368s)
+[2023.08.31-16.30.03:727][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Rubes_Kitchen.Rubes_Kitchen to /Game/Maps/UEDPIE_0_Rubes_Kitchen.Rubes_Kitchen (0.001404s)
+[2023.08.31-16.30.03:727][402]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.08.31-16.30.03:727][402]LogAIModule: Creating AISystem for world Rubes_Kitchen
+[2023.08.31-16.30.03:743][402]LogPlayLevel: PIE: World Init took: (0.015811s)
+[2023.08.31-16.30.03:755][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.08.31-16.30.03:756][402]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.08.31-16.30.03:756][402]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.31-16.30.03:756][402]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.31-16.30.03:756][402]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.31-16.30.03:756][402]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.31-16.30.03:756][402]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.31-16.30.03:756][402]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.31-16.30.03:756][402]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.31-16.30.03:756][402]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.31-16.30.03:757][402]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.31-16.30.03:757][402]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.31-16.30.03:757][402]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.31-16.30.03:760][402]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.31-16.30.03:803][402]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰 (Galaxy Buds2 (8C92))
+[2023.08.31-16.30.03:804][402]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.31-16.30.03:804][402]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.31-16.30.03:804][402]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.31-16.30.03:804][402]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.08.31-16.30.03:805][402]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.08.31-16.30.03:806][402]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.08.31-16.30.03:806][402]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.08.31-16.30.03:807][402]LogInit: FAudioDevice initialized.
+[2023.08.31-16.30.03:807][402]LogAudio: Display: Audio Device (ID: 6) registered with world 'Rubes_Kitchen'.
+[2023.08.31-16.30.03:811][402]LogLoad: Game class is 'GM_RubeGoldberg_C'
+[2023.08.31-16.30.03:898][402]LogStaticMesh: Warning: Invalid material [MI_Ghost] used on Nanite static mesh [S_cutting_board] - forcing default material instead. Only opaque blend mode is currently supported, [BLEND_Translucent] blend mode was specified.
+[2023.08.31-16.30.03:898][402]LogStaticMesh: Warning: Invalid material [MI_Ghost] used on Nanite static mesh [S_cutting_board] - forcing default material instead. Only opaque blend mode is currently supported, [BLEND_Translucent] blend mode was specified.
+[2023.08.31-16.30.03:921][402]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Rubes_Kitchen.Rubes_Kitchen up for play (max tick rate 60) at 2023.09.01-01.30.03
+[2023.08.31-16.30.03:922][402]LogWorld: Bringing up level for play took: 0.000669
+[2023.08.31-16.30.03:924][402]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.08.31-16.30.03:926][402]PIE: Server logged in
+[2023.08.31-16.30.03:927][402]PIE: Play in editor total start time 0.204 seconds.
+[2023.08.31-16.30.12:045][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.31-16.30.12:045][667]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Rubes_Kitchen
+[2023.08.31-16.30.12:050][667]LogWorld: UWorld::CleanupWorld for Rubes_Kitchen, bSessionEnded=true, bCleanupResources=true
+[2023.08.31-16.30.12:050][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.31-16.30.12:056][667]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.31-16.30.12:060][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.31-16.30.12:074][667]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.31-16.30.12:074][667]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.08.31-16.30.12:077][667]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.08.31-16.30.12:085][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.31-16.30.12:094][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.08.31-16.30.12:100][667]LogActorComponent: ReregisterComponent: (/Game/Maps/L5_Pulley.L5_Pulley:PersistentLevel.BP_Pully_C_3.MMS_pulley) Not currently registered. Aborting.
+[2023.08.31-16.30.12:136][668]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.08.31-16.30.12:151][668]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.08.31-16.30.12:733][688]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.31-16.30.12:740][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.31-16.30.12:740][688]PIE: New page: PIE session: Rubes_Kitchen (1 Sep 2023, 10:30:12 am)
+[2023.08.31-16.30.12:740][688]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Rubes_Kitchen
+[2023.08.31-16.30.12:741][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001247s)
+[2023.08.31-16.30.12:741][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Rubes_Kitchen.Rubes_Kitchen to /Game/Maps/UEDPIE_0_Rubes_Kitchen.Rubes_Kitchen (0.001279s)
+[2023.08.31-16.30.12:741][688]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.08.31-16.30.12:742][688]LogAIModule: Creating AISystem for world Rubes_Kitchen
+[2023.08.31-16.30.12:757][688]LogPlayLevel: PIE: World Init took: (0.015193s)
+[2023.08.31-16.30.12:767][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.08.31-16.30.12:767][688]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.08.31-16.30.12:767][688]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.31-16.30.12:767][688]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.31-16.30.12:767][688]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.31-16.30.12:767][688]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.31-16.30.12:767][688]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.31-16.30.12:767][688]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.31-16.30.12:767][688]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.31-16.30.12:767][688]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.31-16.30.12:769][688]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.31-16.30.12:769][688]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.31-16.30.12:769][688]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.31-16.30.12:772][688]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.31-16.30.12:814][688]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰 (Galaxy Buds2 (8C92))
+[2023.08.31-16.30.12:814][688]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.31-16.30.12:814][688]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.31-16.30.12:814][688]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.31-16.30.12:815][688]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.08.31-16.30.12:815][688]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.08.31-16.30.12:817][688]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.08.31-16.30.12:817][688]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.08.31-16.30.12:817][688]LogInit: FAudioDevice initialized.
+[2023.08.31-16.30.12:817][688]LogAudio: Display: Audio Device (ID: 7) registered with world 'Rubes_Kitchen'.
+[2023.08.31-16.30.12:848][688]LogLoad: Game class is 'GM_RubeGoldberg_C'
+[2023.08.31-16.30.12:939][688]LogStaticMesh: Warning: Invalid material [MI_Ghost] used on Nanite static mesh [S_cutting_board] - forcing default material instead. Only opaque blend mode is currently supported, [BLEND_Translucent] blend mode was specified.
+[2023.08.31-16.30.12:939][688]LogStaticMesh: Warning: Invalid material [MI_Ghost] used on Nanite static mesh [S_cutting_board] - forcing default material instead. Only opaque blend mode is currently supported, [BLEND_Translucent] blend mode was specified.
+[2023.08.31-16.30.12:955][688]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Rubes_Kitchen.Rubes_Kitchen up for play (max tick rate 60) at 2023.09.01-01.30.12
+[2023.08.31-16.30.12:956][688]LogWorld: Bringing up level for play took: 0.000745
+[2023.08.31-16.30.12:958][688]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.08.31-16.30.12:960][688]PIE: Server logged in
+[2023.08.31-16.30.12:961][688]PIE: Play in editor total start time 0.222 seconds.
+[2023.08.31-16.30.15:134][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.31-16.30.15:134][750]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Rubes_Kitchen
+[2023.08.31-16.30.15:138][750]LogWorld: UWorld::CleanupWorld for Rubes_Kitchen, bSessionEnded=true, bCleanupResources=true
+[2023.08.31-16.30.15:138][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.31-16.30.15:153][750]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.31-16.30.15:156][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.31-16.30.15:170][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.31-16.30.15:170][750]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.08.31-16.30.15:172][750]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.08.31-16.30.15:183][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.08.31-16.30.15:188][750]LogActorComponent: ReregisterComponent: (/Game/Maps/L5_Pulley.L5_Pulley:PersistentLevel.BP_Pully_C_3.MMS_pulley) Not currently registered. Aborting.
+[2023.08.31-16.30.15:215][751]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.08.31-16.30.15:227][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.08.31-16.31.17:362][217]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.31-16.31.17:372][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.31-16.31.17:373][217]PIE: New page: PIE session: Rubes_Kitchen (1 Sep 2023, 10:31:17 am)
+[2023.08.31-16.31.17:373][217]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Rubes_Kitchen
+[2023.08.31-16.31.17:374][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001633s)
+[2023.08.31-16.31.17:374][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Rubes_Kitchen.Rubes_Kitchen to /Game/Maps/UEDPIE_0_Rubes_Kitchen.Rubes_Kitchen (0.001668s)
+[2023.08.31-16.31.17:374][217]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.08.31-16.31.17:375][217]LogAIModule: Creating AISystem for world Rubes_Kitchen
+[2023.08.31-16.31.17:406][217]LogPlayLevel: PIE: World Init took: (0.031857s)
+[2023.08.31-16.31.17:418][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.08.31-16.31.17:420][217]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.08.31-16.31.17:420][217]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.31-16.31.17:420][217]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.31-16.31.17:420][217]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.31-16.31.17:420][217]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.31-16.31.17:420][217]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.31-16.31.17:420][217]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.31-16.31.17:420][217]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.31-16.31.17:420][217]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.31-16.31.17:421][217]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.31-16.31.17:421][217]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.31-16.31.17:421][217]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.31-16.31.17:424][217]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.31-16.31.17:478][217]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰 (Galaxy Buds2 (8C92))
+[2023.08.31-16.31.17:479][217]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.31-16.31.17:479][217]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.31-16.31.17:479][217]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.31-16.31.17:479][217]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.08.31-16.31.17:479][217]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.08.31-16.31.17:483][217]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.08.31-16.31.17:483][217]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.08.31-16.31.17:483][217]LogInit: FAudioDevice initialized.
+[2023.08.31-16.31.17:483][217]LogAudio: Display: Audio Device (ID: 8) registered with world 'Rubes_Kitchen'.
+[2023.08.31-16.31.17:514][217]LogLoad: Game class is 'GM_RubeGoldberg_C'
+[2023.08.31-16.31.17:624][217]LogStaticMesh: Warning: Invalid material [MI_Ghost] used on Nanite static mesh [S_cutting_board] - forcing default material instead. Only opaque blend mode is currently supported, [BLEND_Translucent] blend mode was specified.
+[2023.08.31-16.31.17:624][217]LogStaticMesh: Warning: Invalid material [MI_Ghost] used on Nanite static mesh [S_cutting_board] - forcing default material instead. Only opaque blend mode is currently supported, [BLEND_Translucent] blend mode was specified.
+[2023.08.31-16.31.17:643][217]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Rubes_Kitchen.Rubes_Kitchen up for play (max tick rate 60) at 2023.09.01-01.31.17
+[2023.08.31-16.31.17:644][217]LogWorld: Bringing up level for play took: 0.000937
+[2023.08.31-16.31.17:647][217]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.08.31-16.31.17:649][217]PIE: Server logged in
+[2023.08.31-16.31.17:650][217]PIE: Play in editor total start time 0.279 seconds.
+[2023.08.31-16.31.24:455][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.31-16.31.24:455][445]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Rubes_Kitchen
+[2023.08.31-16.31.24:461][445]LogWorld: UWorld::CleanupWorld for Rubes_Kitchen, bSessionEnded=true, bCleanupResources=true
+[2023.08.31-16.31.24:461][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.31-16.31.24:479][445]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.31-16.31.24:484][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.31-16.31.24:500][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.31-16.31.24:500][445]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.08.31-16.31.24:503][445]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.08.31-16.31.24:518][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.08.31-16.31.24:523][445]LogActorComponent: ReregisterComponent: (/Game/Maps/L5_Pulley.L5_Pulley:PersistentLevel.BP_Pully_C_3.MMS_pulley) Not currently registered. Aborting.
+[2023.08.31-16.31.24:563][446]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.08.31-16.31.24:579][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.08.31-16.31.25:587][477]LogActorLevelEditorSelection: Warning: SelectActor: The requested operation could not be completed because the level is locked. (S_sink)
+[2023.08.31-16.31.28:946][582]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.31-16.31.28:954][582]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.31-16.31.28:954][582]PIE: New page: PIE session: Rubes_Kitchen (1 Sep 2023, 10:31:28 am)
+[2023.08.31-16.31.28:954][582]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Rubes_Kitchen
+[2023.08.31-16.31.28:955][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001189s)
+[2023.08.31-16.31.28:955][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Rubes_Kitchen.Rubes_Kitchen to /Game/Maps/UEDPIE_0_Rubes_Kitchen.Rubes_Kitchen (0.001213s)
+[2023.08.31-16.31.28:955][582]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.08.31-16.31.28:955][582]LogAIModule: Creating AISystem for world Rubes_Kitchen
+[2023.08.31-16.31.28:972][582]LogPlayLevel: PIE: World Init took: (0.017110s)
+[2023.08.31-16.31.28:981][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.08.31-16.31.28:981][582]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.08.31-16.31.28:981][582]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.31-16.31.28:981][582]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.31-16.31.28:983][582]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.31-16.31.28:983][582]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.31-16.31.28:983][582]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.31-16.31.28:983][582]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.31-16.31.28:983][582]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.31-16.31.28:983][582]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.31-16.31.28:983][582]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.31-16.31.28:983][582]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.31-16.31.28:983][582]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.31-16.31.28:985][582]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.31-16.31.29:024][582]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰 (Galaxy Buds2 (8C92))
+[2023.08.31-16.31.29:024][582]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.31-16.31.29:024][582]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.31-16.31.29:024][582]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.31-16.31.29:025][582]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.08.31-16.31.29:025][582]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.08.31-16.31.29:027][582]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.08.31-16.31.29:027][582]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.08.31-16.31.29:027][582]LogInit: FAudioDevice initialized.
+[2023.08.31-16.31.29:027][582]LogAudio: Display: Audio Device (ID: 9) registered with world 'Rubes_Kitchen'.
+[2023.08.31-16.31.29:031][582]LogLoad: Game class is 'GM_RubeGoldberg_C'
+[2023.08.31-16.31.29:107][582]LogStaticMesh: Warning: Invalid material [MI_Ghost] used on Nanite static mesh [S_cutting_board] - forcing default material instead. Only opaque blend mode is currently supported, [BLEND_Translucent] blend mode was specified.
+[2023.08.31-16.31.29:107][582]LogStaticMesh: Warning: Invalid material [MI_Ghost] used on Nanite static mesh [S_cutting_board] - forcing default material instead. Only opaque blend mode is currently supported, [BLEND_Translucent] blend mode was specified.
+[2023.08.31-16.31.29:121][582]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Rubes_Kitchen.Rubes_Kitchen up for play (max tick rate 60) at 2023.09.01-01.31.29
+[2023.08.31-16.31.29:121][582]LogWorld: Bringing up level for play took: 0.000585
+[2023.08.31-16.31.29:123][582]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2023.08.31-16.31.29:125][582]PIE: Server logged in
+[2023.08.31-16.31.29:126][582]PIE: Play in editor total start time 0.175 seconds.
+[2023.08.31-16.31.34:254][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.31-16.31.34:254][749]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Rubes_Kitchen
+[2023.08.31-16.31.34:261][749]LogWorld: UWorld::CleanupWorld for Rubes_Kitchen, bSessionEnded=true, bCleanupResources=true
+[2023.08.31-16.31.34:261][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.31-16.31.34:267][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.31-16.31.34:271][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.31-16.31.34:287][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.31-16.31.34:287][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.08.31-16.31.34:290][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.08.31-16.31.34:305][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.08.31-16.31.34:310][749]LogActorComponent: ReregisterComponent: (/Game/Maps/L5_Pulley.L5_Pulley:PersistentLevel.BP_Pully_C_3.MMS_pulley) Not currently registered. Aborting.
+[2023.08.31-16.31.34:350][750]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.08.31-16.31.34:365][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.08.31-16.31.38:221][853]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.31-16.31.38:231][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.31-16.31.38:231][853]PIE: New page: PIE session: Rubes_Kitchen (1 Sep 2023, 10:31:38 am)
+[2023.08.31-16.31.38:232][853]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Rubes_Kitchen
+[2023.08.31-16.31.38:233][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001539s)
+[2023.08.31-16.31.38:233][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Rubes_Kitchen.Rubes_Kitchen to /Game/Maps/UEDPIE_0_Rubes_Kitchen.Rubes_Kitchen (0.001577s)
+[2023.08.31-16.31.38:233][853]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.08.31-16.31.38:234][853]LogAIModule: Creating AISystem for world Rubes_Kitchen
+[2023.08.31-16.31.38:250][853]LogPlayLevel: PIE: World Init took: (0.015870s)
+[2023.08.31-16.31.38:260][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.08.31-16.31.38:261][853]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.08.31-16.31.38:261][853]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.31-16.31.38:261][853]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.31-16.31.38:261][853]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.31-16.31.38:261][853]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.31-16.31.38:261][853]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.31-16.31.38:261][853]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.31-16.31.38:261][853]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.31-16.31.38:261][853]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.31-16.31.38:263][853]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.31-16.31.38:263][853]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.31-16.31.38:263][853]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.31-16.31.38:265][853]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.31-16.31.38:309][853]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰 (Galaxy Buds2 (8C92))
+[2023.08.31-16.31.38:309][853]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.31-16.31.38:309][853]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.31-16.31.38:309][853]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.31-16.31.38:310][853]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.08.31-16.31.38:310][853]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.08.31-16.31.38:313][853]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.08.31-16.31.38:313][853]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.08.31-16.31.38:313][853]LogInit: FAudioDevice initialized.
+[2023.08.31-16.31.38:313][853]LogAudio: Display: Audio Device (ID: 10) registered with world 'Rubes_Kitchen'.
+[2023.08.31-16.31.38:317][853]LogLoad: Game class is 'GM_RubeGoldberg_C'
+[2023.08.31-16.31.38:410][853]LogStaticMesh: Warning: Invalid material [MI_Ghost] used on Nanite static mesh [S_cutting_board] - forcing default material instead. Only opaque blend mode is currently supported, [BLEND_Translucent] blend mode was specified.
+[2023.08.31-16.31.38:410][853]LogStaticMesh: Warning: Invalid material [MI_Ghost] used on Nanite static mesh [S_cutting_board] - forcing default material instead. Only opaque blend mode is currently supported, [BLEND_Translucent] blend mode was specified.
+[2023.08.31-16.31.38:429][853]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Rubes_Kitchen.Rubes_Kitchen up for play (max tick rate 60) at 2023.09.01-01.31.38
+[2023.08.31-16.31.38:430][853]LogWorld: Bringing up level for play took: 0.000797
+[2023.08.31-16.31.38:432][853]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.08.31-16.31.38:435][853]PIE: Server logged in
+[2023.08.31-16.31.38:436][853]PIE: Play in editor total start time 0.206 seconds.
